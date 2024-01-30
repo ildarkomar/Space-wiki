@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space-wiki</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+  <body style="background-color: black;"></body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="started.html">Space-wiki</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="started.html">Главная</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Факты о планетах
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#saturn">Сатурн</a></li>
+                <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+              </ul>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+            <button class="btn btn-outline-success" type="submit">Поиск</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div>
+      <br>
+      <h4 style="color: white;">Интересный факт:</h4>
+    <script>
+      <!-- 
+      var h=(Math.random()*11); 
+       if (h < 1) document.writeln("<p style='color:white'>А вы знали, что в 2016 году ученые обнаружили радиосигнал возрастом 5 миллиардов световых лет?</p>"); 
+       if (h > 1 && h < 2) document.writeln("<p style='color:white'>А вы знали, что только Меркурий и Венера во всей солнечной системе не имеет собственной Луны?</p>"); 
+       if (h > 2 && h < 3) document.writeln("<p style='color:white'>А вы знали, что самая высокая гора обнаружена на Марсе?</p>");
+       if (h > 3 && h < 4) document.writeln("<p style='color:white'>А вы знали, что длина млечного пути составляет 105 700 световых лет?</p>");
+       if (h > 4 && h < 5) document.writeln("<p style='color:white'>А вы знали, что день на Плутоне длиться 6 дней 9 часов и 36 минут?</p>");
+       if (h > 5 && h < 6) document.writeln("<p style='color:white'>А вы знали, что Сатурн занимает 2 место по величине в нашей солнечной системе?</p>");
+       if (h > 6 && h < 7) document.writeln("<p style='color:white'>А вы знали, что любая жидкость летящая в космосе формируется в сферу?</p>");
+       if (h > 7 && h < 8) document.writeln("<p style='color:white'>А вы знали, что cвет летит от Солнца до Земли меньше чем за 10 минут?</p>");
+       if (h > 8 && h < 9) document.writeln("<p style='color:white'>А вы знали, что космос находится в 100 километрах от поверхности Земли?</p>");
+       if (h > 9 && h <10) document.writeln("<p style='color:white'>А вы знали, что МКС делает оборот вокруг Земли каждые 92 минуты?</p>");
+       if (h > 10 && h <11) document.writeln("<p style='color:white'>А вы знали, что Луна всегда повернута к нам одной и той же стороной, независимо где Вы находитесь?</p>");
+      // -->
+      </script>
+      </div>
+      <br>
+      <h4 style="color: white;">Услыште космос!</h4>
+      <div style="color: white;">Звуки открытого космоса</div>
+      <audio controls src="open-space.mp3"></audio>
+      <br>
+      <br>
+      <div style="color: white;">Звуки, когда комета пролетела мимо спутника в космосе</div>
+      <audio controls src="kometa-sputnik.mp3"></audio>
+      <br>
+      <br>
+      <div style="color: white;">Неизвестные звуки с планеты Уран</div>
+      <audio controls src="unknown-uran.mp3"></audio>
+      <br>
+      <br>
+      <div style="color: white;">Звук космической бури (геомагнитной)</div>
+      <audio controls src="burya.mp3"></audio>
+      <br>
+      <br>
+      <div style="color: white;">Звук пролетающего рядом объекта в космосе</div>
+      <audio controls src="ryadom-kometa.mp3"></audio>
+      <div class="modal fade" id="saturn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Факты о Сатурне</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+              1. Сатурн легче воды; 
+            </div>
+            <div class="modal-body">
+              2. У Сатурна самые большие кольца в Солнечной системе; 
+            </div>
+            <div class="modal-body">
+              3. Сатурн не имеет поверхности; 
+            </div>
+            <div class="modal-body">
+              4. У Сатурна есть ураган в форме шестиугольника; 
+            </div>
+            <div class="modal-body">
+              5. На Сатурне идут алмазные дожди; 
+            </div>
+            <div class="modal-body">
+              6. Сутки на Сатурне короче суток на Земле; 
+            </div>
+            <div class="modal-body">
+              7. Сатурн имеет тот же состав, что и любая звезда; 
+            </div>
+            <div class="modal-body">
+              8. Сатурн – самая дальняя планета, которую можно увидеть без телескопа; 
+            </div>
+            <div class="modal-body">
+              9. Сатурн – планета с наибольшим количеством спутников; 
+            </div>
+            <div class="modal-body">
+              10. Сатурн теряет свои кольца.
+            </div>
+            
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
